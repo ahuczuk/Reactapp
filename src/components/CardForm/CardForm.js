@@ -16,7 +16,7 @@ const CardForm = props => {
 	return (
         <form onSubmit={handleSubmit} className={styles.card}>
         <TextInput type="text" value={title} onChange={e => setTitle(e.target.value)} />
-        <Button>Add Column</Button>
+        <Button>Add Card</Button>
     </form>
 );
 
